@@ -1,0 +1,19 @@
+body {
+  background-color: #0E0E10;
+  overflow-x: hidden;
+}
+
+.header-text {
+  cursor: pointer;
+  transition: all 200s ease-in-out;
+}
+
+.header-text:hover {
+  border-bottom: 1px solid white;
+}
+
+@media screen and (max-width: 720px) {
+  .res-image {
+    margin-left: 5em;
+  }
+}
